@@ -573,6 +573,7 @@ li {
   width: 264px;
   border-radius: 4px;
   padding: 8px 16px;
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-form-btn {
   display: inline-flex;
@@ -634,6 +635,7 @@ li {
   border-radius: 4px;
   outline: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
+  background-color: #fcfcfc;
 }
 .modal-input:focus {
   border-color: var(--bgColor);
@@ -655,9 +657,9 @@ li {
   padding: 8px 16px;
   outline: none;
   letter-spacing: 0.04em;
-  /* margin-bottom: 16px; */
   resize: none;
   color: rgba(117, 117, 117, 0.5);
+  border: 1px solid rgba(33, 33, 33, 0.2);
 }
 .modal-form-textarea:focus {
   border-color: var(--bgColor);
